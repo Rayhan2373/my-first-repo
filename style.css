@@ -3,6 +3,9 @@ span{
 }
 .s1{
 display: flex;
+background-image: url(dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
 }
 .half-width{
     width: 50%;
@@ -17,9 +20,16 @@ display: flex;
     background-image: url(r.jpg);
     background-size: 100% 100%;
     border-radius: 50%;
+    border-color: linear-gradient(red, yellow);
+   
 }
 body{
-    background-color: lemonchiffon;
+    
+    margin: 0px;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+   
+
 
 }
 .link-button{
@@ -35,4 +45,30 @@ h1{
 }
 #s1{
     padding-top: 50px;
+}
+section{
+    margin-bottom: 150px;
+}
+.flex-area{
+    display: flex;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.orange-color{
+    color: orange;
+}
+.b{
+    box-shadow:10px 10px 40px grey;
+    width: 40%;
+    margin: auto;
+    border-left: 5px red solid;
+    border-image: linear-gradient(45deg, red , yellow);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color:black;
 }
